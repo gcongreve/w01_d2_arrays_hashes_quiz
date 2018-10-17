@@ -79,5 +79,11 @@ eriks_new_numbers =   eriks_old_numbers.push(7)
 p eriks_new_numbers
 
 # 8. Change Erik's hometown to Edinburgh
-# 9. Add a pet dog to Erik called "Fluffy"
+users["Erik"][:home_town] = "Edinburgh"
+p users["Erik"][:home_town]
+# 9. Add a pet dog to Erik called "Fluffy
+users["Erik"][:pets][0][:species] = "dog"
+users["Erik"][:pets][0][:name] = "Fluffy"
+p users["Erik"]
+
 # 10. Add another person to the users hash
