@@ -86,3 +86,19 @@ users["Erik"][:pets][0][:name] = "Fluffy"
 p users["Erik"]
 
 # 10. Add another person to the users hash
+
+users["Jim"] = {
+  :twitter => "jim17",
+  :lottery_numbers => [1, 2, 3, 4, 5, 6],
+  :home_town => "Dundee",
+  :pets => [
+    {
+      :name => "jim2",
+      :species => "rat"
+    }
+  ]
+}
+
+
+puts
+p users
