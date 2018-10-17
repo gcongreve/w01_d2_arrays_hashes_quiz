@@ -72,7 +72,7 @@ for number in avrils_lottery
     even_numbers.push(number)
   end
 end
-p even_numbers
+p "Avril's even numbers are : #{even_numbers}"
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 eriks_old_numbers = users["Erik"][:lottery_numbers]
 eriks_new_numbers =   eriks_old_numbers.push(7)

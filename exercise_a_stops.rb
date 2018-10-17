@@ -25,7 +25,6 @@ puts "Falkirks: "
 p stops[2]
 
 for station in stops
-  falkirk_array = []
   if station[0..4] == "Falki"
     p station
   end
