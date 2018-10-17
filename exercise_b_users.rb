@@ -77,7 +77,6 @@ p even_numbers
 eriks_old_numbers = users["Erik"][:lottery_numbers]
 eriks_new_numbers =   eriks_old_numbers.push(7)
 p eriks_new_numbers
-
 # 8. Change Erik's hometown to Edinburgh
 users["Erik"][:home_town] = "Edinburgh"
 p users["Erik"][:home_town]
