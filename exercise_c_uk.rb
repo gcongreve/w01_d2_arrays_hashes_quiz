@@ -22,6 +22,7 @@ for country in united_kingdom
     country[:capital] = "Cardiff"
   end
 end
+p "Changed capital:"
 p united_kingdom
 # 2. Create a Hash for Northern Ireland and add it to the `united_kingdom` array (The capital is Belfast, and the population is 1,811,000).
 northern_ireland = {
@@ -30,8 +31,7 @@ northern_ireland = {
   capital: "Belfast"
 }
 united_kingdom.push(northern_ireland)
-
-puts "with Northern Ireland:"
+puts "With Northern Ireland:"
 p united_kingdom
 # 3. Use a loop to print the names of all the countries in the UK.
 for country in united_kingdom
@@ -42,4 +42,4 @@ population = 0
 for country in united_kingdom
   population += country[:population]
 end
-p population
+p "population = #{population}"
