@@ -20,12 +20,22 @@ p stops
 # 7. How many stops there are in the array?
 p stops.length
 # 8. How many ways can we return `"Falkirk High"` from the array?
+puts "Falkirks: "
+
 p stops[2]
 
+for station in stops
+  falkirk_array = []
+  if station[0..4] == "Falki"
+    p station
+  end
+end
+
 # 9. Reverse the positions of the stops in the array
+puts "Reverse:"
 p stops.reverse
 # 10. Print out all the stops using a for loop
-
+puts "print stations:"
 for stations in stops
   p stations
 end

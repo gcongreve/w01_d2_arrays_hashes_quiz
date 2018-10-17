@@ -29,9 +29,9 @@ northern_ireland = {
   population: 1811000,
   capital: "Belfast"
 }
-united_kingdom << northern_ireland
+united_kingdom.push(northern_ireland)
 
-
+puts "with Northern Ireland:"
 p united_kingdom
 # 3. Use a loop to print the names of all the countries in the UK.
 for country in united_kingdom
